@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin:0 auto;
+    border: 2px solid #484542;
+    background: hsla(0, 0%, 0%, 0.15);
+    position: relative;
+}
+
+.metaloides{
+    background-color: hsl( 216, 100%, 50%);
+}
+.transition{
+    background-color: hsl( 144, 100%, 50%);
+}
+
+.alcalino{
+    background-color: hsl( 0, 100%, 50%);
+}
+
+.alcalino2{
+    background-color: hsl( 36, 100%, 50%);
+}
+
+.lanthanoid{
+    background-color: hsl( 72, 100%, 50%);
+}
+
+.noble-gas{
+    background-color: hsl( 324, 100%, 50%);
+}
+.post-transition{
+    background-color: hsl( 180, 100%, 50%);
+}
+
+.diatomic{
+    background-color: hsl( 252, 100%, 50%);
+}
+
+.actinoid{
+    background-color: hsl( 108, 100%, 50%);
+}
+
+div{
+    width: 100px;
+    height:100px;
+    border: 1px solid black;
+}
+
+h5{
+    position: absolute;
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.simbolo{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 2.8em;
+    font-weight: bold;
+    color: white;
+}
+
+.numero{
+    position: absolute;
+    right: 8px;
+    top: 5px;
+}
+
+.peso{
+    position: absolute;
+    left: 10px;
+    top: 76px;
+    font-size: 0.8em;
+}
+
+.symbol{
+    position:relative;
+}
+
+button{
+    border:1px solid black;
+    height:30px;
+    width:100px;
+}
+
+nav{
+    margin-left:200px;
+    margin-bottom: 50px;
+}
